@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Server E2E tests Health Check E2E tests Expected response for Health Check 1`] = `"OK"`;
+
+exports[`Server E2E tests Vehicle E2E tests Expected Vehicle Info for id: 1 and timestamp: 2022-09-01 00:00:00+00 1`] = `
+{
+  "timestamp": "2022-09-01 00:00:00+00",
+  "vehicle": {
+    "id": 1,
+    "make": "BMW",
+    "model": "X1",
+    "state": "quoted",
+  },
+}
+`;
+
+exports[`Server E2E tests Vehicle E2E tests Expected Vehicle Info for id: 1 and timestamp: 2022-09-10 10:23:54+00 1`] = `
+{
+  "state": "quoted",
+  "timestamp": "2022-09-10 10:23:54+00",
+  "vehicle": {
+    "id": 1,
+    "make": "BMW",
+    "model": "X1",
+    "state": "quoted",
+  },
+}
+`;
+
+exports[`Server E2E tests Vehicle E2E tests Expected Vehicle Info for id: 1 and timestamp: 2022-09-11 00:00:00+00 1`] = `
+{
+  "state": "quoted",
+  "timestamp": "2022-09-11 00:00:00+00",
+  "vehicle": {
+    "id": 1,
+    "make": "BMW",
+    "model": "X1",
+    "state": "quoted",
+  },
+}
+`;
+
+exports[`Server E2E tests Vehicle E2E tests Expected Vehicle Info for id: 2 and timestamp: 2022-09-11 16:00:00+00 1`] = `
+{
+  "state": "quoted",
+  "timestamp": "2022-09-11 16:00:00+00",
+  "vehicle": {
+    "id": 2,
+    "make": "AUDI",
+    "model": "A4",
+    "state": "selling",
+  },
+}
+`;
+
+exports[`Server E2E tests Vehicle E2E tests Expected Vehicle Info for id: 2 and timestamp: 2022-09-11 17:03:17+00 1`] = `
+{
+  "state": "selling",
+  "timestamp": "2022-09-11 17:03:17+00",
+  "vehicle": {
+    "id": 2,
+    "make": "AUDI",
+    "model": "A4",
+    "state": "selling",
+  },
+}
+`;
+
+exports[`Server E2E tests Vehicle E2E tests Expected Vehicle Info for id: 2 and timestamp: 2022-09-11 18:00:00+00 1`] = `
+{
+  "state": "selling",
+  "timestamp": "2022-09-11 18:00:00+00",
+  "vehicle": {
+    "id": 2,
+    "make": "AUDI",
+    "model": "A4",
+    "state": "selling",
+  },
+}
+`;
+
+exports[`Server E2E tests Vehicle E2E tests Expected Vehicle Info for id: 3 and timestamp: 2022-09-12 11:00:00+00 1`] = `
+{
+  "state": "selling",
+  "timestamp": "2022-09-12 11:00:00+00",
+  "vehicle": {
+    "id": 3,
+    "make": "VW",
+    "model": "GOLF",
+    "state": "sold",
+  },
+}
+`;
+
+exports[`Server E2E tests Vehicle E2E tests Expected Vehicle Info for id: 3 and timestamp: 2022-09-12 12:41:41+00 1`] = `
+{
+  "state": "sold",
+  "timestamp": "2022-09-12 12:41:41+00",
+  "vehicle": {
+    "id": 3,
+    "make": "VW",
+    "model": "GOLF",
+    "state": "sold",
+  },
+}
+`;
+
+exports[`Server E2E tests Vehicle E2E tests Expected Vehicle Info for id: 3 and timestamp: 2022-09-13 00:00:00+00 1`] = `
+{
+  "state": "sold",
+  "timestamp": "2022-09-13 00:00:00+00",
+  "vehicle": {
+    "id": 3,
+    "make": "VW",
+    "model": "GOLF",
+    "state": "sold",
+  },
+}
+`;
+
+exports[`Server E2E tests Vehicle E2E tests Expected Vehicle Info for id: 3 and timestamp: wrong 1`] = `
+{
+  "timestamp": "wrong",
+  "vehicle": {
+    "id": 3,
+    "make": "VW",
+    "model": "GOLF",
+    "state": "sold",
+  },
+}
+`;
